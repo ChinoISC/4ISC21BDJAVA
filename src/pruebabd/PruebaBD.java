@@ -15,6 +15,7 @@ public class PruebaBD {
      */
     public static void main(String[] args) {
         connect_db.conectDB();
+        connect_db.mostrarUsuarios();
     }
     
 }
